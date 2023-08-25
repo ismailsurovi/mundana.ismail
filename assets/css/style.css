@@ -1,0 +1,71 @@
+/* fonts */
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&family=Source+Sans+3:wght@400;500;600;700&display=swap');
+
+/* common code start */
+body{
+	margin: 0px;
+}
+.container{
+	width: 90%;
+	margin: 0px auto;
+}
+.d-inline-block{
+	display: inline-block;
+}
+/* common code End */
+
+/* navbar code start */
+nav{
+	padding: 0px 0px;
+}
+.navbar-brand{
+	color: rgba(0, 0, 0, 0.9);
+	font-family: 'Playfair Display', serif;
+	font-size: 20px;
+	font-weight: 700;
+	margin-right: 50px;
+	text-decoration: none;
+}
+ul.navber-nav{
+	margin: 0px;
+	padding: 0px;
+}
+.navber-nav li{
+	list-style: none;
+	display: inline-block;
+}
+.navber-nav li a{
+	color: rgba(0, 0, 0, 0.7);
+	font-weight: 400;
+	font-size: 16px;
+	font-family: 'Source Sans 3', sans-serif;
+	text-decoration: none;
+	padding: 15px 20px;
+	display: inline-block;
+}
+.navber-nav li a span{
+	color: #fff;
+	font-size: 13px;
+	font-weight: 700;
+	padding: 2px 4px;
+	border-radius: 4px;
+	background: #7832E2;
+}
+.Get-this-Theme{
+	color: #03A87C;
+	font-weight: 400;
+	font-size: 15px;
+	text-decoration: none;
+	padding: 6px 30px;
+	font-family: 'Source Sans 3', sans-serif;
+	border-radius: 5px;
+	border: 1px solid green;
+	float: right;
+	margin-top: 9px;
+
+}
+a.Get-this-Theme:hover{
+	background: green;
+	color: white;
+}
+/* navbar code End */
